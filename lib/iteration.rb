@@ -16,11 +16,9 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-  index = 0
   new_array = []
-  while index < src.count do
+  src.count.times do |index|
     new_array << src[index].sort.last
-    index += 1
   end
   new_array
 end
