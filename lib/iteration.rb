@@ -20,7 +20,7 @@ def find_greater_pair(src)
   index = 0
   new_array = []
   while index < src.count do
-    new_array << "I love #{src[index].first} and #{src[index].last} on my pizza"
+    new_array << src[index].sort.last
     index += 1
   end
   new_array
