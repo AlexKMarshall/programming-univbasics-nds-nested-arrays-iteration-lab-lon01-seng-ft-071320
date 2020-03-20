@@ -9,7 +9,7 @@ def join_ingredients(src)
   
   index = 0
   new_array = []
-  while index < src.count do
+  src.count.times do |index|
     new_array << "I love #{src[index].first} and #{src[index].last} on my pizza"
     index += 1
   end
