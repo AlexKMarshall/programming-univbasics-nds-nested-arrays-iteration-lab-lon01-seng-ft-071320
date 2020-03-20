@@ -8,7 +8,9 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   index = 0
-  while counter < src.count 
+  while index < src.count do 
+    index += 1
+  end
 end
 
 def find_greater_pair(src)
