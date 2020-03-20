@@ -30,8 +30,11 @@ def total_even_pairs(src)
   index = 0
   result = 0
   while index < src.count do
-    if ((src[index].first % 2 == 0))
+    if ((src[index].first % 2 == 0) && (src[index].last % 2 == 0)) do
+      total += src[index].first
+      total += src[index].last
+    end
     index += 1
   end
-  new_array
+  result
 end
