@@ -27,7 +27,7 @@ def total_even_pairs(src)
   result = 0
   src.count.times do |index|
     if ((src[index].first % 2 == 0) && (src[index].last % 2 == 0)) 
-      result += src[index].first
+      result += src[index].first +
       result += src[index].last
     end
   end
