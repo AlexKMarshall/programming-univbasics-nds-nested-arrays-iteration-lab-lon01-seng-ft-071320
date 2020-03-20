@@ -11,7 +11,6 @@ def join_ingredients(src)
   new_array = []
   src.count.times do |index|
     new_array << "I love #{src[index].first} and #{src[index].last} on my pizza"
-    #index += 1
   end
   new_array
 end
