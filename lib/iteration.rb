@@ -10,7 +10,7 @@ def join_ingredients(src)
   index = 0
   new_array = []
   while index < src.count do
-    new_array << "I love #{"
+    new_array << "I love #{src[index].first} and "
     index += 1
   end
 end
