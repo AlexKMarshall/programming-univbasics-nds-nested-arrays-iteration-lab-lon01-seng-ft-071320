@@ -24,14 +24,12 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  index = 0
   result = 0
-  while index < src.count do
+  src.count.times do |index|
     if ((src[index].first % 2 == 0) && (src[index].last % 2 == 0)) 
       result += src[index].first
       result += src[index].last
     end
-    index += 1
   end
   result
 end
